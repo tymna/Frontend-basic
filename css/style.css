@@ -1,0 +1,17 @@
+header{
+    text-align: center;
+    background-color: rgb(254, 163, 163);
+    height: 60px;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: antiquewhite;
+}
+dt{
+    font-weight: bold;
+}
+span{
+    font-weight: bolder;
+}
