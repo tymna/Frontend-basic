@@ -1,0 +1,132 @@
+body{
+    background-color: #2C2C2C;
+}
+
+.indentations{
+    margin-top: 125px;
+    height: 800px;
+}
+
+.position{
+    height: 170px;
+    width: 750px;
+    margin-top: 40px;
+    margin-left: 50px;
+    border: 2px solid #3F3F3F;
+    border-radius: 5px;
+    background-color: #2F2F2F;
+}
+
+.table{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.select1{
+    width: 60px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #2F2F2F;
+    border: none;
+    background-image: url(image/sort-down.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: .70em auto, 100%;
+     font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #E7E7E7;
+}
+
+.td{
+    width: 350px;
+    border-bottom: 2px solid #3F3F3F;
+}
+.th{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #E7E7E7;
+}
+
+.td-padding{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+
+.text1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #BFBFBF;
+}
+
+.text2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6c6b6b;
+}
+
+.photo1{
+    float: right;
+    margin-right: 15px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.photo2{
+    float: right;
+    margin-right: 15px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.checkbox{
+    margin-right: 10px;
+}
+
+.search{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #5F5F5F;
+    width: 175px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    float: right;
+    margin-right: 5px;
+    padding-left: 5px;
+    background-color: #444444;
+    border: none;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: .70em auto, 100%;
+}
+
+.img{
+    margin-right: 10px;}
+    .minus{
+        display: inline;
+    width: 11.5px;
+    height: 11px;
+    border-radius: 2px;
+    padding: 0 0 0 4.5px;
+}
+      
