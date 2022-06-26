@@ -1,0 +1,129 @@
+.main {  
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(6, 50px);
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "item1 item2 item3 item4"
+      "item5 item6 item7 item8"
+      "item9 item10 item11 item12"
+      "item13 item14 item15 item16"
+      "item17 item18 item19 item20"
+      "item21 item22 item23 item24";
+      width: 1440px;
+      height: 350px;
+  }
+  .main div{
+    background-color: gray;
+  }
+  
+  .item1 { grid-area: item1; }
+  
+  .item2 { grid-area: item2; }
+  
+  .item3 { grid-area: item3; }
+  
+  .item4 { grid-area: item4; }
+  
+  .item5 { grid-area: item5; }
+  
+  .item6 { grid-area: item6; }
+  
+  .item7 { grid-area: item7; }
+  
+  .item8 { grid-area: item8; }
+  
+  .item9 { grid-area: item9; }
+  
+  .item10 { grid-area: item10; }
+  
+  .item11 { grid-area: item11; }
+  
+  .item12 { grid-area: item12; }
+  
+  .item13 { grid-area: item13; }
+  
+  .item14 { grid-area: item14; }
+  
+  .item15 { grid-area: item15; }
+  
+  .item16 { grid-area: item16; }
+  
+  .item17 { grid-area: item17; }
+  
+  .item18 { grid-area: item18; }
+  
+  .item19 { grid-area: item19; }
+  
+  .item20 { grid-area: item20; }
+  
+  .item21 { grid-area: item21; }
+  
+  .item22 { grid-area: item22; }
+  
+  .item23 { grid-area: item23; }
+  
+  .item24 { grid-area: item24; }
+
+  
+
+  .main div:nth-child(4n-1) {
+    background: red;
+  }
+
+  .main div:nth-child(21) {
+    background: blue;
+  }
+
+  .main div:nth-child(22) {
+    background: blue;
+  }
+
+  .main div:nth-child(24) {
+    background: blue;
+  }
+
+  .button{
+    width: 1368px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+
+  .button button{
+    width: 501px;
+    height: 92px;
+    margin-left: 46px;
+    margin-right: 46px;
+    background: #44D3A8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    border: none;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+
+  .button::before{
+    width: 200px;
+    height: 8px;
+    border-top: 2px solid #C4C4C4;
+    border-bottom: 2px solid #C4C4C4;
+    content: "";
+  }
+
+  .button::after{
+    width: 200px;
+    height: 8px;
+    border-top: 2px solid #C4C4C4;
+    border-bottom: 2px solid #C4C4C4;
+    content: "";
+  }
+  .button button:hover{
+    background-color: #17a87d;
+}
